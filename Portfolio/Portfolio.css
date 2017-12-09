@@ -43,9 +43,10 @@ header {
     right: 60px;
 }
 
+
 #navbar li{
     display: inline-block;
-    padding: 10px 30px;
+    padding: 12px 26px;
 }
 
 
@@ -66,10 +67,26 @@ header {
 }
 
 
+#intro{
+    font-family: 'Knewave', cursive;
+    font-size: 20px;
+    padding: 2px;
+    margin: 24px 66px;
+}
+
+
 #paragraph{
     font-family: 'Hammersmith One', sans-serif;
+    font-size: 15px;
     padding: 5px;
-    margin: 20px;
+    margin: -50px 90px;
+}
+
+
+img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -82,3 +99,15 @@ header {
    color: white;
    text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
