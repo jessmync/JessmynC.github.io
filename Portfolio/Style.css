@@ -51,7 +51,7 @@ header {
 
 #navbar li{
     display: inline-block;
-    padding: 60px 30px;
+    padding: 12px 26px;
 }
 
 
@@ -73,7 +73,7 @@ header {
 
 
 img{
-    max-width: 33.05%;
+    width: 33.12%;
     height: auto;
 }
 
