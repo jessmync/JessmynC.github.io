@@ -13,9 +13,9 @@ html {
 
 body {
     margin: 0;
-  
+    width: 1280px;
     padding: 0;
-
+    min-height: 500px;
     font-family: 'Roboto', sans-serif;
     background: #E5E7E9;
 }
@@ -48,8 +48,6 @@ header {
 #navbar li{
     display: inline-block;
     padding: 12px 26px;
-    min-width: 10px;
-
 }
 
 
