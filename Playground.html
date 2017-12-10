@@ -12,8 +12,8 @@
 	</head>
 	<body>
 		
-		<script src="js/three.min.js"></script>
-		<script src="js/detector.js"></script>
+		<script src="http://threejsplaygnd.brangerbriz.net/js/three.min.js"></script>
+		<script src="http://threejsplaygnd.brangerbriz.net/js/Detector.js"></script>
 		<script>
 
 			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
@@ -104,6 +104,9 @@ scene.add( spotLight2 );
 				
 				particles.rotation.y = Date.now() * 0.00012;
 				
+					var time = Date.now() * 0.0005;
+				h = ( 360 * ( 1.0 + time ) % 360 ) / 360;
+				material.color.setHSL( h, 0.5, 0.2 );
 
 			}
 
