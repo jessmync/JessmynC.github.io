@@ -30,6 +30,11 @@ header {
     font-size: 21px;
 }
 
+ul {
+    padding: 0.1;
+    list-style: none;
+}
+
 
 #navbar ul{
     background-color: #E5E7E9;
