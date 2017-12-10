@@ -4,8 +4,10 @@
 
 
 html {
-    position: relative;
-    max-height: 20%;
+    position: absolute;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
 }
 
 
@@ -31,12 +33,6 @@ header {
 }
 
 
-ul {
-    padding: 0.1;
-    list-style: none;
-}
-
-
 #navbar ul{
     background-color: #E5E7E9;
     margin-right: auto;
@@ -52,6 +48,8 @@ ul {
 #navbar li{
     display: inline-block;
     padding: 12px 26px;
+]
+
 }
 
 
@@ -61,6 +59,7 @@ ul {
     font-size: 14px;
     padding: 10px;
 }
+
 
 
 #motto h1{
